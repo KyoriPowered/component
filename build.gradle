@@ -32,6 +32,10 @@ repositories {
   mavenCentral()
 }
 
+dependencies {
+  api 'org.checkerframework:checker-qual:2.5.8'
+}
+
 task javadocJar(type: Jar) {
   classifier 'javadoc'
   from javadoc
