@@ -36,7 +36,7 @@ public interface Component {
    *
    * @return the dependencies
    */
-  default @NonNull Stream<Component> dependencies() {
+  default @NonNull Stream<? extends Component> dependencies() {
     return Stream.empty();
   }
 }
