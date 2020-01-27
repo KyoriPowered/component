@@ -11,7 +11,7 @@ plugins {
 
 group 'net.kyori'
 description 'A library for working with features.'
-version '1.0.0-SNAPSHOT'
+version '1.0.0'
 
 tasks.withType(JavaCompile) {
   options.compilerArgs += ['-Xlint:all']
@@ -50,6 +50,7 @@ publishing {
 
       pom {
         name = project.name
+        url = 'https://github.com/KyoriPowered/feature'
         description = project.description
 
         developers {
