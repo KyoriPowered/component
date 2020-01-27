@@ -1,1 +1,1 @@
-# component [![Build Status](https://travis-ci.com/KyoriPowered/component.svg?branch=master)](https://travis-ci.com/KyoriPowered/component)
+# feature [![Build Status](https://travis-ci.com/KyoriPowered/feature.svg?branch=master)](https://travis-ci.com/KyoriPowered/feature)

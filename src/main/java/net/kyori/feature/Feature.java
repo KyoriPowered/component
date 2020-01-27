@@ -1,7 +1,7 @@
 /*
- * This file is part of component, licensed under the MIT License.
+ * This file is part of feature, licensed under the MIT License.
  *
- * Copyright (c) 2018-2019 KyoriPowered
+ * Copyright (c) 2018-2020 KyoriPowered
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -21,22 +21,22 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package net.kyori.component;
+package net.kyori.feature;
 
 import org.checkerframework.checker.nullness.qual.NonNull;
 
 import java.util.stream.Stream;
 
 /**
- * A component.
+ * A feature.
  */
-public interface Component {
+public interface Feature {
   /**
-   * Gets the dependencies of this component.
+   * Gets the dependencies of this feature.
    *
    * @return the dependencies
    */
-  default @NonNull Stream<? extends Component> dependencies() {
+  default @NonNull Stream<? extends Feature> dependencies() {
     return Stream.empty();
   }
 }

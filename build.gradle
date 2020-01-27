@@ -10,7 +10,7 @@ plugins {
 }
 
 group 'net.kyori'
-description 'A library for working with components.'
+description 'A library for working with features.'
 version '1.0.0-SNAPSHOT'
 
 tasks.withType(JavaCompile) {
@@ -34,7 +34,7 @@ dependencies {
 
 jar {
   manifest.attributes(
-    'Automatic-Module-Name': 'net.kyori.component'
+    'Automatic-Module-Name': 'net.kyori.feature'
   )
 }
 
@@ -60,7 +60,7 @@ publishing {
 
         issueManagement {
           system = 'GitHub Issues'
-          url = 'https://github.com/KyoriPowered/component/issues'
+          url = 'https://github.com/KyoriPowered/feature/issues'
         }
 
         licenses {
@@ -71,9 +71,9 @@ publishing {
         }
 
         scm {
-          connection = 'scm:git@github.com:KyoriPowered/component.git'
-          developerConnection = 'scm:git@github.com:KyoriPowered/component.git'
-          url = 'https://github.com/KyoriPowered/component/'
+          connection = 'scm:git@github.com:KyoriPowered/feature.git'
+          developerConnection = 'scm:git@github.com:KyoriPowered/feature.git'
+          url = 'https://github.com/KyoriPowered/feature/'
         }
       }
     }
